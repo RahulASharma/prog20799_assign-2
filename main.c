@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-/*Testing a comment.*/
+/*This is studpid. Testing a comment.*/
 
 const unsigned int MAX_SIZE=100;
 typedef unsigned int uint;
