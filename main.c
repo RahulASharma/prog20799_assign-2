@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-/*Testing a comment.*/
-//Another comment.
+
+/*This is studpid. Testing a comment.*/
+
+>>>>>>> 4956a547013deef77e153ac2b7de1ff45ada59f3
 const unsigned int MAX_SIZE=100;
 typedef unsigned int uint;
 
