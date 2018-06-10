@@ -3,7 +3,7 @@
 #include <string.h>
 
 /*Testing a comment.*/
-
+//Another comment.
 const unsigned int MAX_SIZE=100;
 typedef unsigned int uint;
 
