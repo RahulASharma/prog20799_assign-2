@@ -50,11 +50,11 @@ int main() {
 }
 
 void read_in(char **str, uint *size) {
-
-   char name[MAX_SIZE][MAX_SIZE];
+    char path[] = "./quotes.txt";   // Relative path to file.
+    char name[MAX_SIZE][MAX_SIZE];
 
     FILE *quotes;
-    quotes = fopen("C:\\Courses\\PROG20799\\NetBeans\\Assignment2\\quotes.txt", "r");
+    quotes = fopen(path, "r");  // Open file for reading.
 
     if (quotes == NULL) {
         printf("Unable to open file\n");
